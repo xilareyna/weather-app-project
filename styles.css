@@ -1,0 +1,104 @@
+.bodybox {
+  background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+  width: 636px;
+  height: 577px;
+  border: 500px;
+  padding: 60px;
+  margin: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 4px grey;
+}
+h1 {
+  left: 63px;
+  color: white;
+  border: 1px solid white;
+  padding: 12px;
+  font-size: 22px;
+  border-radius: 4px;
+  color: white;
+  width: 400px;
+  font-size: 35px;
+  bottom: 17px;
+}
+h2 {
+  width: 161px;
+  height: 135px;
+  background-color: white;
+  border-radius: 5px;
+  left: 376px;
+  box-shadow: 2px 2px 2px grey;
+  color: #6b6868;
+}
+
+h3 {
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+}
+
+h2,
+h1 {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  position: relative;
+}
+
+.sun,
+.mon,
+.tues,
+.wed,
+.thurs {
+  width: 100px;
+  height: 128px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  box-shadow: 2px 2px 2px gray;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  color: #6b6868;
+}
+
+.sun {
+  right: 20px;
+  top: 36px;
+}
+
+.mon {
+  left: 94px;
+  bottom: 92px;
+}
+
+.tues {
+  left: 207px;
+  bottom: 219px;
+}
+
+.wed {
+  left: 321px;
+  bottom: 346px;
+}
+
+.thurs {
+  left: 435px;
+  bottom: 474px;
+}
+
+.sun i,
+.mon i,
+.tues i,
+.wed i,
+.thurs i {
+  color: pink;
+  font-size: 40px;
+}
+
+ul {
+  list-style: none;
+  bottom: 107px;
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}

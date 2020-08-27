@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/bd8a500afe.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+  <div class="bodybox">
+    <h1>Los Angeles, California</h1>
+
+    <form id="searchCity">
+      <input type="text" id="searchbar" placeholder="Search for your city" />
+      <input type="submit" class="searchButton" />
+    </form>
+    <h3>today</h3>
+
+    <h2>
+      19°F
+      <br />
+      Today
+    </h2>
+
+    <ul>
+      <li id="cloud">Cloudiness:</li>
+      <li id="humid">Humidity:</li>
+      <li id="wind">Wind Speed:</li>
+    </ul>
+
+    <div class="sun">
+      <strong>79°F</strong>
+      <br />
+      <i class="fas fa-cloud-sun-rain"></i>
+      <br />
+      Sunday
+    </div>
+
+    <div class="mon">
+      <strong>70°F</strong>
+      <br />
+      <i class="fas fa-cloud-sun"></i>
+      <br />
+      Monday
+    </div>
+
+    <div class="tues">
+      <strong>77°F</strong>
+      <br />
+      <i class="fas fa-cloud-showers-heavy"></i>
+
+      <br />
+      Tuesday
+    </div>
+    <div class="wed">
+      <strong>85°F</strong>
+      <br />
+      <i class="fas fa-sun"></i>
+      <br />
+      Wednesday
+    </div>
+    <div class="thurs">
+      <strong>79°F</strong>
+      <br />
+      <i class="fas fa-sun"></i>
+      <br />
+      Thursday
+    </div>
+  </div>
+  <script src="src/index.js"></script>
+</body>
